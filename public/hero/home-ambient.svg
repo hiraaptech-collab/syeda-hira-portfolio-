@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1800 1000" fill="none">
+  <defs>
+    <linearGradient id="base" x2="1" y2="1"><stop stop-color="#101b2b"/><stop offset=".55" stop-color="#142b4f"/><stop offset="1" stop-color="#0b1930"/></linearGradient>
+    <radialGradient id="glow"><stop stop-color="#8fa8c5" stop-opacity=".52"/><stop offset="1" stop-color="#294a76" stop-opacity="0"/></radialGradient>
+    <linearGradient id="beam" x1=".1" y1="0" x2=".9" y2="1"><stop stop-color="#d8d5cb" stop-opacity=".22"/><stop offset="1" stop-color="#bcc3cc" stop-opacity="0"/></linearGradient>
+    <filter id="blur"><feGaussianBlur stdDeviation="48"/></filter>
+  </defs>
+  <path fill="url(#base)" d="M0 0h1800v1000H0z"/>
+  <ellipse cx="1380" cy="400" rx="570" ry="440" fill="url(#glow)" filter="url(#blur)"/>
+  <ellipse cx="330" cy="850" rx="500" ry="240" fill="#8a9287" fill-opacity=".14" filter="url(#blur)"/>
+  <path d="M0 780 350 520l250 120 440-430 265 215 495-310v885H0z" fill="url(#beam)" opacity=".32"/>
+  <path d="M0 820h1800M0 860h1800M0 900h1800M0 940h1800M180 690v310m180-310v310m180-310v310m180-310v310m180-310v310m180-310v310m180-310v310m180-310v310m180-310v310" stroke="#bcc3cc" stroke-opacity=".12"/>
+  <g fill="#e4e7eb"><circle cx="280" cy="210" r="2"/><circle cx="430" cy="130" r="3"/><circle cx="1190" cy="190" r="2"/><circle cx="1530" cy="245" r="2"/><circle cx="1680" cy="130" r="3"/><circle cx="890" cy="115" r="2"/></g>
+</svg>

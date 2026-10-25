@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1800 1000" fill="none">
+  <defs>
+    <linearGradient id="base" x2="1" y2="1"><stop stop-color="#303945"/><stop offset=".48" stop-color="#66717b"/><stop offset="1" stop-color="#172b45"/></linearGradient>
+    <radialGradient id="light"><stop stop-color="#d8d5cb" stop-opacity=".42"/><stop offset="1" stop-color="#d8d5cb" stop-opacity="0"/></radialGradient>
+    <linearGradient id="arch" x1="0" x2="1" y1="0" y2="1"><stop stop-color="#bcc3cc" stop-opacity=".28"/><stop offset="1" stop-color="#d8d5cb" stop-opacity=".02"/></linearGradient>
+    <filter id="soft"><feGaussianBlur stdDeviation="34"/></filter>
+  </defs>
+  <path fill="url(#base)" d="M0 0h1800v1000H0z"/>
+  <ellipse cx="820" cy="260" rx="750" ry="430" fill="url(#light)" filter="url(#soft)"/>
+  <path d="M-90 1000V535C-90 212 128 0 430 0s520 212 520 535v465H-90Z" fill="url(#arch)" stroke="#e2e2dc" stroke-opacity=".25" stroke-width="2"/>
+  <path d="M160 1000V562c0-214 114-355 270-355s270 141 270 355v438" stroke="#e2e2dc" stroke-opacity=".21" stroke-width="2"/>
+  <path d="M1000 1000V490c0-300 200-490 430-490s430 190 430 490v510" fill="#0b1930" fill-opacity=".25" stroke="#bcc3cc" stroke-opacity=".23" stroke-width="2"/>
+  <path d="M1090 1000V516c0-236 143-390 340-390s340 154 340 390v484" stroke="#d8d5cb" stroke-opacity=".2" stroke-width="2"/>
+  <path d="M0 825c365-85 654-53 917 2s559 76 883-34v207H0z" fill="#0b1930" fill-opacity=".3"/>
+  <g stroke="#bcc3cc" stroke-opacity=".17"><path d="M0 740h1800M0 790h1800M0 840h1800M0 890h1800"/><path d="m300 600 250 400m-80-450 300 450m800-440-250 440m370-425-230 425"/></g>
+</svg>

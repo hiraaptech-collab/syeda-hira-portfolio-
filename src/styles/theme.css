@@ -1,0 +1,60 @@
+:root {
+  /* Approved Core Palette */
+  --warm-beige: #D8D5CB;
+  --soft-greige: #C3BEB2;
+  --ivory-cream: #EDE8DD;
+  --muted-sage: #8A9287;
+  --dusty-olive: #6F786E;
+  --charcoal: #242424;
+  --warm-off-white: #EDE8DD;
+  --stone-grey: #A7A59F;
+
+  /* Royal Navy Depth Colors */
+  --dark-royal-navy: #142B4F;
+  --midnight-blue: #0B1930;
+  --steel-navy: #294A76;
+  --slate-blue: #667D9E;
+  --metallic-silver: #BCC3CC;
+
+  /* Semantic Aliases */
+  --beige: var(--warm-beige);
+  --greige: var(--soft-greige);
+  --cream: var(--ivory-cream);
+  --sage: var(--muted-sage);
+  --olive: var(--dusty-olive);
+  --off-white: var(--warm-off-white);
+  --stone: var(--stone-grey);
+  --navy: var(--dark-royal-navy);
+  --midnight: var(--midnight-blue);
+  --silver: var(--metallic-silver);
+  --ink: var(--charcoal);
+  --muted: #5e6059;
+  --line: rgba(36, 36, 36, 0.14);
+  --navy-line: rgba(20, 43, 79, 0.18);
+
+  /* Dimensional Shadows & Glass Panels */
+  --shadow-sm: 0 4px 14px rgba(11, 25, 48, 0.05);
+  --shadow-md: 0 12px 30px rgba(11, 25, 48, 0.08);
+  --shadow-lg: 0 24px 50px -10px rgba(20, 43, 79, 0.16);
+  --shadow-floating: 0 20px 40px rgba(20, 43, 79, 0.12), 0 1px 3px rgba(0, 0, 0, 0.05);
+  --navy-glow: 0 0 35px rgba(41, 74, 118, 0.22);
+
+  --glass-bg: rgba(237, 232, 221, 0.82);
+  --glass-navy-bg: rgba(20, 43, 79, 0.04);
+  --glass-border: rgba(138, 146, 135, 0.28);
+  --glass-navy-border: rgba(41, 74, 118, 0.22);
+
+  /* Gradients */
+  --navy-gradient: linear-gradient(145deg, #142B4F 0%, #0B1930 100%);
+  --sage-greige-gradient: linear-gradient(135deg, rgba(138, 146, 135, 0.18) 0%, rgba(195, 190, 178, 0.22) 100%);
+  --navy-atmospheric-glow: radial-gradient(circle at 50% 50%, rgba(41, 74, 118, 0.15) 0%, rgba(11, 25, 48, 0.02) 65%, transparent 75%);
+
+  /* Typography & Layout */
+  --font-body: 'DM Sans', sans-serif;
+  --font-display: 'Cormorant Garamond', Georgia, serif;
+  --page-width: 1320px;
+  --gutter: clamp(22px, 5.5vw, 88px);
+  --ease: cubic-bezier(.22, 1, .36, 1);
+  --ease-wave: cubic-bezier(.45, 0.05, 0.55, 0.95);
+}
+
